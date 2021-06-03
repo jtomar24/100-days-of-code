@@ -16,3 +16,4 @@ int main() {
     cout<<arr[k-1];
 	return 0;
 }
+
