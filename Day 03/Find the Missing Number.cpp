@@ -17,3 +17,4 @@ int main() {
     cout<<(total-sum)<<" ";
 	return 0;
 }
+
