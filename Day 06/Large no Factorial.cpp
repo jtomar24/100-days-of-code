@@ -16,9 +16,8 @@ void factorial(int n)
 	res[0] = 1;
 	int res_size = 1;
 
-	// Apply simple factorial formula n! = 1 * 2 * 3 * 4...*n
 	for (int x=2; x<=n; x++)
-		res_size = multiply(x, res, res_size);
+	res_size = multiply(x, res, res_size);
 
 	cout << "Factorial of given number is \n";
 	for (int i=res_size-1; i>=0; i--)
