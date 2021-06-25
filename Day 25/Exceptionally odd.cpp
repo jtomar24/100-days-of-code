@@ -10,14 +10,18 @@ public:
     int getOddOccurrence(int arr[], int n)
     {
         // code here
-        int res = arr[0];
-
-        for (int i = 1; i < n; i++)
+        int hash[1000000]={0};
+        for(int i=0;i<n;i++)
         {
-            res ^= arr[i];
+            hash[arr[i]]++;
         }
-
-        return res;
+        for(int i=0;i<1000000;i++)
+        {
+            if(hash[i]%2!=0)
+            {
+                return i;
+            }
+        }
     }
 };
 
