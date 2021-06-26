@@ -129,3 +129,4 @@ int main()
 	return 0;
 }
 
+//output:Created Linked list is:  1  7  8  6  4
