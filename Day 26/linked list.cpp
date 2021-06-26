@@ -43,3 +43,5 @@ int main() {
 	
 	return 0;
 }
+
+//output :1 2 3
