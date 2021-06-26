@@ -1,5 +1,4 @@
-// Given a reference (pointer to pointer) to the head
-// of a list and an int, appends a new node at the end
+/* Given a reference (pointer to pointer) to the head of a list and an int, appends a new node at the end */
 void append(Node** head_ref, int new_data)
 {
 
