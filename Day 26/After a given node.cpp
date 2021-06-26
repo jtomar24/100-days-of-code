@@ -1,6 +1,4 @@
-// Given a node prev_node, insert a
-// new node after the given
-// prev_node
+// Given a node prev_node, insert a new node after the given prev_node
 void insertAfter(Node* prev_node, int new_data)
 {
 
