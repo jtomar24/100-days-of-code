@@ -16,4 +16,4 @@ void push(Node** head_ref, int new_data)
 	(*head_ref) = new_node;
 }
 
-// This code is contributed by rathbhupendra
+
