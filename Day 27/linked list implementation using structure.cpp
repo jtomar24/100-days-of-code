@@ -9,7 +9,7 @@ struct Node
     data=x;
     next=NULL;
   }
-}
+};
 int main()
 {
     Node *head=new Node(10);
