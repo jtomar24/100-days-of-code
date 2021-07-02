@@ -12,3 +12,4 @@ int countLeaves(Node* root)
   return countLeaves(root->left)+countLeaves(root->right);
   
 }
+
