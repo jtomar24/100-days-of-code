@@ -1,6 +1,6 @@
 int countLeaves(Node* root)
 {
-  // Your code here
+  
   if(root==NULL)
   {
       return 0;
