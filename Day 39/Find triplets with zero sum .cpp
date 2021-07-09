@@ -6,8 +6,7 @@ class Solution{
         //Your code here
                 int l, r;
 
-
-	sort(arr, arr + n);
+       sort(arr, arr + n);
 
 
 	for (int i = 0; i < n - 2; i++) {
