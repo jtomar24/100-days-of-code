@@ -4,8 +4,7 @@
 using namespace std;
 
 
- // } Driver Code Ends
-//User function template for C++
+ // } Driver Code Ends User function template for C++
 class Solution{
 public:	
 	// Program for zig-zag conversion of array
