@@ -7,7 +7,7 @@ void levelOrder(Node* node)
   {
    q.push(node);
    while(!q.empty())
-   {
+   { 
     Node * curr=q.front();
     q.pop();
     cout<<curr->data<<" ";
