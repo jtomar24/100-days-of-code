@@ -3,7 +3,7 @@ void levelOrder(Node* node)
   queue<node*> q;
   if(node==NULL)
     return;
-  else
+   else
   {
    q.push(node);
    while(!q.empty())
